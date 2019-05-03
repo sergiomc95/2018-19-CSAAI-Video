@@ -13,12 +13,33 @@ function main()
   video1.width = 200;
   video1.height= 100;
   video1.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente1.mp4"
+  play1.onmouseover = () => {
+    video1.style.backgroundColor = "red"
+  }
+
+  play1.onmouseout = () => {
+    video1.style.backgroundColor = ""
+  }
   video2.width = 200;
   video2.height= 100;
   video2.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente2.mp4"
+    play2.onmouseover = () => {
+      video2.style.backgroundColor = "red"
+    }
+
+    play2.onmouseout = () => {
+      video2.style.backgroundColor = ""
+  }
   video3.width = 200;
   video3.height= 100;
   video3.src ="https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente3.mp4"
+  play3.onmouseover = () => {
+    video3.style.backgroundColor = "red"
+    }
+
+    play3.onmouseout = () => {
+      video3.style.backgroundColor = ""
+    }
 
   //-- Boton de Play
   ver1 = document.getElementById('play1')
